@@ -1,0 +1,57 @@
+# Gradle
+.gradle/
+build/
+
+# Gradle Wrapper JAR
+# Keep the wrapper scripts and properties, but don't commit generated JARs
+gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE - VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IntelliJ IDEA (in case you ever use it)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Java crash dumps
+hs_err_pid*
+replay_pid*
+
+# Local configuration
+application-local.properties
+application-local.yml
